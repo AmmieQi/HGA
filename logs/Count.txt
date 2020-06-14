@@ -1,0 +1,1 @@
+Test|Epoch: 0, Acc: 19.584=696/3554, Test Loss: 5.330
