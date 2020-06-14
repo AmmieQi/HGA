@@ -1,0 +1,1 @@
+Train|Epoch: 0, Acc : 27.704=9822/35453, Train Loss: 4.913

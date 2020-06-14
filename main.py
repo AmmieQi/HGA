@@ -37,13 +37,6 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 def main():
     """Main script."""
 
-    if args.server == '780':
-        args.data_path = '/home/jp/data/tgif-qa/data'
-
-    args.feat_dir = os.path.join(args.data_path, 'feats')
-    args.vc_dir = os.path.join(args.data_path, 'Vocabulary')
-    args.df_dir = os.path.join(args.data_path, 'dataset')
-
     args.model_name = args.task
     args.pin_memory = False
     args.dataset = 'tgif_qa'
@@ -159,8 +152,9 @@ def main():
         train(
             args, train_dataloader, val_dataloader, test_dataloader, criterion)
     else:
+        print(args.checkpoint[:5], args.task[:5])
         assert args.checkpoint[:5] == args.task[:5]
-        model = torch.load(args.save_model_path + args.checkpoint)
+        model = torch.load(args.save_model_path + 'best/' + args.checkpoint)
         test(args, model, test_dataloader, 0, criterion)
 
 
@@ -290,6 +284,13 @@ def train(args, train_dataloader, val_dataloader, test_dataloader, criterion):
                 predict_answer.float(), correct_answer.float())
             print('Train|Count Real Loss:\t {:.3f}'.format(count_loss))
 
+        logfile = open(os.path.join(args.log, args.task + '.txt'), 'a+')
+        logfile.write(
+            "Train|Epoch: %d, Acc : %.3f=%d/%d, Train Loss: %.3f\n"
+            % (epoch, acc, current_num, len(correct_answer), train_loss)
+        )
+        logfile.close()
+
         val_acc, val_loss = val(args, model, val_dataloader, epoch, criterion)
 
         if val_acc > best_val_acc:
@@ -330,16 +331,34 @@ def val(args, model, val_dataloader, epoch, criterion):
     print(
         "VAL|Epoch: {}, Acc: {:3f}={}/{}, Val Loss: {:3f}".format(
             epoch, acc, current_num, len(correct_answer), val_loss))
+
+    logfile = open(os.path.join(args.log, args.task + '.txt'), 'a+')
+    logfile.write(
+        "VAL|Epoch: %d, Acc: %.3f=%d/%d, Val Loss: %.3f\n"
+        % (epoch, acc, current_num, len(correct_answer), val_loss)
+    )
+    logfile.close()
+
     if args.task == 'Count':
         print(
             'VAL|Count Real Loss:\t {:.3f}'.format(
                 F.mse_loss(predict_answer.float(), correct_answer.float())))
         acc = -F.mse_loss(predict_answer.float(), correct_answer.float())
+
+        logfile = open(os.path.join(args.log, args.task + '.txt'), 'a+')
+        logfile.write(
+            "VAL|Count Real Loss:\t %.3f}\n"
+            % (F.mse_loss(predict_answer.float(), correct_answer.float()))
+        )
+        logfile.close()
     return acc, val_loss
 
 
 @torch.no_grad()
 def test(args, model, test_dataloader, epoch, criterion):
+
+
+
     model.eval()
 
     loss_list = []
@@ -369,6 +388,14 @@ def test(args, model, test_dataloader, epoch, criterion):
     print(
         "Test|Epoch: {}, Acc: {:3f}={}/{}, Test Loss: {:3f}".format(
             epoch, acc, current_num, len(correct_answer), test_loss))
+
+    logfile = open(os.path.join(args.log, args.task + '.txt'), 'a+')
+    logfile.write(
+        "Test|Epoch: %d, Acc: %.3f=%d/%d, Test Loss: %.3f\n"
+        % (epoch, acc, current_num, len(correct_answer), test_loss)
+    )
+    logfile.close()
+
     if args.save:
         if (args.task == 'Action' and
                 acc >= 75.2) or (args.task == 'Trans' and
@@ -391,13 +418,18 @@ def test(args, model, test_dataloader, epoch, criterion):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument(
-        '--save', action='store_true', default=False, help='save models or not')
-    parser.add_argument(
-        '--save_adj',
-        action='store_true',
-        default=False,
-        help='save adj or not')
+
+    ################ path config ################
+
+    parser.add_argument('--feat_dir', default='/data/TGIFQA', help='path for imagenet and c3d features')
+    parser.add_argument('--vc_dir', default='/data/TGIFQA/vocab', help='path for vocabulary')
+    parser.add_argument('--df_dir', default='/data/TGIFQA/question', help='path for tgif question csv files')
+
+    #############################################
+
+
+    ################ inference config ################
+
     parser.add_argument(
         '--checkpoint',
         type=str,
@@ -408,6 +440,16 @@ if __name__ == '__main__':
         type=str,
         default='./saved_models/',
         help='path for saving trained models')
+
+    #############################################
+
+    parser.add_argument(
+        '--save', action='store_true', default=True, help='save models or not')
+    parser.add_argument(
+        '--save_adj',
+        action='store_true',
+        default=False,
+        help='save adj or not')
     parser.add_argument(
         '--hidden_size',
         type=int,

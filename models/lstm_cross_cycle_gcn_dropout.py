@@ -308,9 +308,11 @@ class LSTMCrossCycleGCNDropout(nn.Module):
     def forward_count(
             self, resnet_inputs, c3d_inputs, video_length, sentence_inputs,
             question_length, answers):
+        q_max_len = 35
+        v_max_len = 80
         all_adj = torch.zeros(
-            resnet_inputs.size(0), self.q_max_len + self.v_max_len,
-            self.q_max_len + self.v_max_len)
+            resnet_inputs.size(0), q_max_len + v_max_len,
+            q_max_len + v_max_len)
         # out of shape (batch_size, )
         out, adj = self.model_block(
             resnet_inputs, c3d_inputs, video_length, sentence_inputs,
@@ -324,9 +326,12 @@ class LSTMCrossCycleGCNDropout(nn.Module):
             self, resnet_inputs, c3d_inputs, video_length, sentence_inputs,
             question_length, answers, answers_type):
 
+        q_max_len = 35
+        v_max_len = 80
+
         all_adj = torch.zeros(
-            resnet_inputs.size(0), self.q_max_len + self.v_max_len,
-            self.q_max_len + self.v_max_len)
+            resnet_inputs.size(0), q_max_len + v_max_len,
+            q_max_len + v_max_len)
 
         # out of shape (batch_size, num_class)
         out, adj = self.model_block(
@@ -345,11 +350,14 @@ class LSTMCrossCycleGCNDropout(nn.Module):
             self, resnet_inputs, c3d_inputs, video_length, candidate_inputs,
             candidate_length, answers, row_index, question_inputs,
             question_length, raw_candidate_inputs, raw_candidate_length):
+        q_max_len = 35
+        v_max_len = 80
+
         candidate_inputs = candidate_inputs.permute(1, 0, 2)
         candidate_length = candidate_length.permute(1, 0)
         all_adj = torch.zeros(
-            resnet_inputs.size(0), 5, self.q_max_len + self.v_max_len,
-            self.q_max_len + self.v_max_len)
+            resnet_inputs.size(0), 5, q_max_len + v_max_len,
+            q_max_len + v_max_len)
         all_out = []
         for idx, candidate in enumerate(candidate_inputs):
             # out of shape (batch_size, ), adj of shape (batch_size, q_v_len, q_v_len)
