@@ -1,1 +1,8 @@
 Train|Epoch: 0, Acc : 27.704=9822/35453, Train Loss: 4.913
+VAL|Epoch: 0, Acc: 36.101=1422/3939, Val Loss: 3.672
+Test|Epoch: 0, Acc: 35.936=4920/13691, Test Loss: 3.701
+Train|Epoch: 1, Acc : 37.410=13263/35453, Train Loss: 3.295
+VAL|Epoch: 1, Acc: 41.305=1627/3939, Val Loss: 3.077
+Test|Epoch: 1, Acc: 41.421=5671/13691, Test Loss: 3.117
+Train|Epoch: 2, Acc : 41.348=14659/35453, Train Loss: 2.933
+VAL|Epoch: 2, Acc: 43.869=1728/3939, Val Loss: 2.844
