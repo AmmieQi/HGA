@@ -1,5 +1,4 @@
-#### forked from https://github.com/Jumpin2/HGA
-
+#### forked from https://github.com/Jumpin2/HGA, which is official pytorch code of Reasoning with Heterogeneous Graph Alignment for Video Question Answering.(AAAI 2020)
 
 #### This is for final project of Graph Convolutional Network class by professor Jin Young Choi, Seoul National University.
 
