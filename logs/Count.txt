@@ -1,1 +1,401 @@
 Test|Epoch: 0, Acc: 19.584=696/3554, Test Loss: 5.330
+Train|Epoch: 0, Acc : 17.757=4290/24159, Train Loss: 5.546
+VAL|Epoch: 0, Acc: 20.790=558/2684, Val Loss: 5.239
+VAL|Count Real Loss:	 5.329}
+Test|Epoch: 0, Acc: 20.906=743/3554, Test Loss: 5.031
+Train|Epoch: 1, Acc : 19.438=4696/24159, Train Loss: 4.848
+VAL|Epoch: 1, Acc: 25.484=684/2684, Val Loss: 4.978
+VAL|Count Real Loss:	 5.030}
+Test|Epoch: 1, Acc: 25.183=895/3554, Test Loss: 4.700
+Train|Epoch: 2, Acc : 20.311=4907/24159, Train Loss: 4.563
+VAL|Epoch: 2, Acc: 22.876=614/2684, Val Loss: 4.585
+VAL|Count Real Loss:	 4.681}
+Test|Epoch: 2, Acc: 22.482=799/3554, Test Loss: 4.338
+Train|Epoch: 3, Acc : 20.978=5068/24159, Train Loss: 4.427
+VAL|Epoch: 3, Acc: 24.627=661/2684, Val Loss: 4.544
+VAL|Count Real Loss:	 4.596}
+Test|Epoch: 3, Acc: 23.551=837/3554, Test Loss: 4.263
+Train|Epoch: 4, Acc : 21.495=5193/24159, Train Loss: 4.326
+VAL|Epoch: 4, Acc: 20.082=539/2684, Val Loss: 4.446
+VAL|Count Real Loss:	 4.486}
+Test|Epoch: 4, Acc: 18.993=675/3554, Test Loss: 4.250
+Train|Epoch: 5, Acc : 21.839=5276/24159, Train Loss: 4.188
+VAL|Epoch: 5, Acc: 22.690=609/2684, Val Loss: 4.377
+VAL|Count Real Loss:	 4.428}
+Test|Epoch: 5, Acc: 22.763=809/3554, Test Loss: 4.147
+Train|Epoch: 6, Acc : 21.888=5288/24159, Train Loss: 4.148
+VAL|Epoch: 6, Acc: 22.317=599/2684, Val Loss: 4.252
+VAL|Count Real Loss:	 4.359}
+Test|Epoch: 6, Acc: 21.187=753/3554, Test Loss: 4.107
+Train|Epoch: 7, Acc : 22.008=5317/24159, Train Loss: 4.033
+VAL|Epoch: 7, Acc: 22.466=603/2684, Val Loss: 4.341
+VAL|Count Real Loss:	 4.403}
+Test|Epoch: 7, Acc: 21.722=772/3554, Test Loss: 4.199
+Train|Epoch: 8, Acc : 22.546=5447/24159, Train Loss: 3.995
+VAL|Epoch: 8, Acc: 21.982=590/2684, Val Loss: 4.190
+VAL|Count Real Loss:	 4.312}
+Test|Epoch: 8, Acc: 21.609=768/3554, Test Loss: 4.096
+Train|Epoch: 9, Acc : 23.805=5751/24159, Train Loss: 3.875
+VAL|Epoch: 9, Acc: 25.596=687/2684, Val Loss: 4.310
+VAL|Count Real Loss:	 4.361}
+Test|Epoch: 9, Acc: 24.254=862/3554, Test Loss: 4.145
+Train|Epoch: 10, Acc : 24.479=5914/24159, Train Loss: 3.810
+VAL|Epoch: 10, Acc: 25.559=686/2684, Val Loss: 4.215
+VAL|Count Real Loss:	 4.308}
+Test|Epoch: 10, Acc: 23.945=851/3554, Test Loss: 4.023
+Train|Epoch: 11, Acc : 24.475=5913/24159, Train Loss: 3.738
+VAL|Epoch: 11, Acc: 25.857=694/2684, Val Loss: 4.262
+VAL|Count Real Loss:	 4.385}
+Test|Epoch: 11, Acc: 24.086=856/3554, Test Loss: 4.037
+Train|Epoch: 12, Acc : 24.869=6008/24159, Train Loss: 3.657
+VAL|Epoch: 12, Acc: 22.317=599/2684, Val Loss: 4.253
+VAL|Count Real Loss:	 4.319}
+Test|Epoch: 12, Acc: 20.568=731/3554, Test Loss: 4.104
+Train|Epoch: 13, Acc : 25.125=6070/24159, Train Loss: 3.569
+VAL|Epoch: 13, Acc: 20.976=563/2684, Val Loss: 4.204
+VAL|Count Real Loss:	 4.316}
+Test|Epoch: 13, Acc: 18.542=659/3554, Test Loss: 4.118
+Train|Epoch: 14, Acc : 26.019=6286/24159, Train Loss: 3.500
+VAL|Epoch: 14, Acc: 22.541=605/2684, Val Loss: 4.153
+VAL|Count Real Loss:	 4.235}
+Test|Epoch: 14, Acc: 20.484=728/3554, Test Loss: 4.080
+Train|Epoch: 15, Acc : 26.210=6332/24159, Train Loss: 3.437
+VAL|Epoch: 15, Acc: 25.373=681/2684, Val Loss: 4.126
+VAL|Count Real Loss:	 4.223}
+Test|Epoch: 15, Acc: 23.804=846/3554, Test Loss: 4.065
+Train|Epoch: 16, Acc : 26.114=6309/24159, Train Loss: 3.387
+VAL|Epoch: 16, Acc: 29.061=780/2684, Val Loss: 4.465
+VAL|Count Real Loss:	 4.551}
+Test|Epoch: 16, Acc: 27.715=985/3554, Test Loss: 4.279
+Train|Epoch: 17, Acc : 26.470=6395/24159, Train Loss: 3.320
+VAL|Epoch: 17, Acc: 21.796=585/2684, Val Loss: 4.214
+VAL|Count Real Loss:	 4.306}
+Test|Epoch: 17, Acc: 20.287=721/3554, Test Loss: 4.189
+Train|Epoch: 18, Acc : 27.054=6536/24159, Train Loss: 3.265
+VAL|Epoch: 18, Acc: 26.192=703/2684, Val Loss: 4.130
+VAL|Count Real Loss:	 4.205}
+Test|Epoch: 18, Acc: 25.267=898/3554, Test Loss: 4.003
+Train|Epoch: 19, Acc : 27.439=6629/24159, Train Loss: 3.187
+VAL|Epoch: 19, Acc: 24.106=647/2684, Val Loss: 4.286
+VAL|Count Real Loss:	 4.383}
+Test|Epoch: 19, Acc: 21.778=774/3554, Test Loss: 4.229
+Train|Epoch: 20, Acc : 28.271=6830/24159, Train Loss: 3.104
+VAL|Epoch: 20, Acc: 26.826=720/2684, Val Loss: 4.191
+VAL|Count Real Loss:	 4.244}
+Test|Epoch: 20, Acc: 24.451=869/3554, Test Loss: 4.011
+Train|Epoch: 21, Acc : 28.412=6864/24159, Train Loss: 3.013
+VAL|Epoch: 21, Acc: 26.155=702/2684, Val Loss: 4.123
+VAL|Count Real Loss:	 4.163}
+Test|Epoch: 21, Acc: 23.748=844/3554, Test Loss: 3.962
+Train|Epoch: 22, Acc : 28.474=6879/24159, Train Loss: 2.969
+VAL|Epoch: 22, Acc: 20.492=550/2684, Val Loss: 4.357
+VAL|Count Real Loss:	 4.435}
+Test|Epoch: 22, Acc: 17.783=632/3554, Test Loss: 4.223
+Train|Epoch: 23, Acc : 28.519=6890/24159, Train Loss: 2.925
+VAL|Epoch: 23, Acc: 26.490=711/2684, Val Loss: 4.293
+VAL|Count Real Loss:	 4.376}
+Test|Epoch: 23, Acc: 23.748=844/3554, Test Loss: 4.107
+Train|Epoch: 24, Acc : 28.726=6940/24159, Train Loss: 2.810
+VAL|Epoch: 24, Acc: 26.602=714/2684, Val Loss: 4.171
+VAL|Count Real Loss:	 4.257}
+Test|Epoch: 24, Acc: 25.380=902/3554, Test Loss: 4.035
+Train|Epoch: 25, Acc : 29.227=7061/24159, Train Loss: 2.775
+VAL|Epoch: 25, Acc: 28.875=775/2684, Val Loss: 4.269
+VAL|Count Real Loss:	 4.349}
+Test|Epoch: 25, Acc: 27.575=980/3554, Test Loss: 4.096
+Train|Epoch: 26, Acc : 29.952=7236/24159, Train Loss: 2.681
+VAL|Epoch: 26, Acc: 25.224=677/2684, Val Loss: 4.283
+VAL|Count Real Loss:	 4.379}
+Test|Epoch: 26, Acc: 22.904=814/3554, Test Loss: 4.145
+Train|Epoch: 27, Acc : 30.374=7338/24159, Train Loss: 2.692
+VAL|Epoch: 27, Acc: 23.063=619/2684, Val Loss: 4.230
+VAL|Count Real Loss:	 4.315}
+Test|Epoch: 27, Acc: 21.384=760/3554, Test Loss: 4.203
+Train|Epoch: 28, Acc : 30.473=7362/24159, Train Loss: 2.558
+VAL|Epoch: 28, Acc: 27.832=747/2684, Val Loss: 4.316
+VAL|Count Real Loss:	 4.439}
+Test|Epoch: 28, Acc: 25.914=921/3554, Test Loss: 4.148
+Train|Epoch: 29, Acc : 30.361=7335/24159, Train Loss: 2.541
+VAL|Epoch: 29, Acc: 28.279=759/2684, Val Loss: 4.126
+VAL|Count Real Loss:	 4.193}
+Test|Epoch: 29, Acc: 25.802=917/3554, Test Loss: 4.094
+Train|Epoch: 30, Acc : 31.392=7584/24159, Train Loss: 2.459
+VAL|Epoch: 30, Acc: 26.230=704/2684, Val Loss: 4.276
+VAL|Count Real Loss:	 4.368}
+Test|Epoch: 30, Acc: 24.395=867/3554, Test Loss: 4.098
+Train|Epoch: 31, Acc : 31.462=7601/24159, Train Loss: 2.424
+VAL|Epoch: 31, Acc: 26.900=722/2684, Val Loss: 4.313
+VAL|Count Real Loss:	 4.380}
+Test|Epoch: 31, Acc: 25.239=897/3554, Test Loss: 4.134
+Train|Epoch: 32, Acc : 32.311=7806/24159, Train Loss: 2.337
+VAL|Epoch: 32, Acc: 29.396=789/2684, Val Loss: 4.275
+VAL|Count Real Loss:	 4.349}
+Test|Epoch: 32, Acc: 26.899=956/3554, Test Loss: 4.193
+Train|Epoch: 33, Acc : 32.236=7788/24159, Train Loss: 2.257
+VAL|Epoch: 33, Acc: 28.018=752/2684, Val Loss: 4.305
+VAL|Count Real Loss:	 4.411}
+Test|Epoch: 33, Acc: 26.787=952/3554, Test Loss: 4.178
+Train|Epoch: 34, Acc : 32.236=7788/24159, Train Loss: 2.253
+VAL|Epoch: 34, Acc: 26.304=706/2684, Val Loss: 4.257
+VAL|Count Real Loss:	 4.349}
+Test|Epoch: 34, Acc: 23.917=850/3554, Test Loss: 4.201
+Train|Epoch: 35, Acc : 33.010=7975/24159, Train Loss: 2.180
+VAL|Epoch: 35, Acc: 27.422=736/2684, Val Loss: 4.149
+VAL|Count Real Loss:	 4.169}
+Test|Epoch: 35, Acc: 25.492=906/3554, Test Loss: 4.067
+Train|Epoch: 36, Acc : 33.118=8001/24159, Train Loss: 2.126
+VAL|Epoch: 36, Acc: 27.012=725/2684, Val Loss: 4.326
+VAL|Count Real Loss:	 4.411}
+Test|Epoch: 36, Acc: 24.592=874/3554, Test Loss: 4.181
+Train|Epoch: 37, Acc : 33.346=8056/24159, Train Loss: 2.070
+VAL|Epoch: 37, Acc: 27.310=733/2684, Val Loss: 4.342
+VAL|Count Real Loss:	 4.382}
+Test|Epoch: 37, Acc: 24.592=874/3554, Test Loss: 4.171
+Train|Epoch: 38, Acc : 33.983=8210/24159, Train Loss: 1.995
+VAL|Epoch: 38, Acc: 29.806=800/2684, Val Loss: 4.445
+VAL|Count Real Loss:	 4.559}
+Test|Epoch: 38, Acc: 27.856=990/3554, Test Loss: 4.289
+Train|Epoch: 39, Acc : 34.372=8304/24159, Train Loss: 1.982
+VAL|Epoch: 39, Acc: 29.545=793/2684, Val Loss: 4.270
+VAL|Count Real Loss:	 4.349}
+Test|Epoch: 39, Acc: 27.124=964/3554, Test Loss: 4.244
+Train|Epoch: 40, Acc : 35.113=8483/24159, Train Loss: 1.931
+VAL|Epoch: 40, Acc: 29.136=782/2684, Val Loss: 4.307
+VAL|Count Real Loss:	 4.394}
+Test|Epoch: 40, Acc: 26.477=941/3554, Test Loss: 4.301
+Train|Epoch: 41, Acc : 35.328=8535/24159, Train Loss: 1.902
+VAL|Epoch: 41, Acc: 30.887=829/2684, Val Loss: 4.432
+VAL|Count Real Loss:	 4.551}
+Test|Epoch: 41, Acc: 29.038=1032/3554, Test Loss: 4.244
+Train|Epoch: 42, Acc : 36.107=8723/24159, Train Loss: 1.837
+VAL|Epoch: 42, Acc: 27.757=745/2684, Val Loss: 4.565
+VAL|Count Real Loss:	 4.709}
+Test|Epoch: 42, Acc: 27.715=985/3554, Test Loss: 4.364
+Train|Epoch: 43, Acc : 36.442=8804/24159, Train Loss: 1.776
+VAL|Epoch: 43, Acc: 29.508=792/2684, Val Loss: 4.401
+VAL|Count Real Loss:	 4.475}
+Test|Epoch: 43, Acc: 28.897=1027/3554, Test Loss: 4.351
+Train|Epoch: 44, Acc : 37.208=8989/24159, Train Loss: 1.741
+VAL|Epoch: 44, Acc: 28.987=778/2684, Val Loss: 4.400
+VAL|Count Real Loss:	 4.477}
+Test|Epoch: 44, Acc: 27.068=962/3554, Test Loss: 4.215
+Train|Epoch: 45, Acc : 37.713=9111/24159, Train Loss: 1.675
+VAL|Epoch: 45, Acc: 26.341=707/2684, Val Loss: 4.379
+VAL|Count Real Loss:	 4.474}
+Test|Epoch: 45, Acc: 25.746=915/3554, Test Loss: 4.250
+Train|Epoch: 46, Acc : 37.812=9135/24159, Train Loss: 1.643
+VAL|Epoch: 46, Acc: 30.700=824/2684, Val Loss: 4.404
+VAL|Count Real Loss:	 4.523}
+Test|Epoch: 46, Acc: 29.488=1048/3554, Test Loss: 4.120
+Train|Epoch: 47, Acc : 37.696=9107/24159, Train Loss: 1.654
+VAL|Epoch: 47, Acc: 30.365=815/2684, Val Loss: 4.550
+VAL|Count Real Loss:	 4.647}
+Test|Epoch: 47, Acc: 29.966=1065/3554, Test Loss: 4.361
+Train|Epoch: 48, Acc : 37.911=9159/24159, Train Loss: 1.609
+VAL|Epoch: 48, Acc: 28.838=774/2684, Val Loss: 4.398
+VAL|Count Real Loss:	 4.468}
+Test|Epoch: 48, Acc: 28.222=1003/3554, Test Loss: 4.214
+Train|Epoch: 49, Acc : 38.582=9321/24159, Train Loss: 1.524
+VAL|Epoch: 49, Acc: 26.677=716/2684, Val Loss: 4.632
+VAL|Count Real Loss:	 4.727}
+Test|Epoch: 49, Acc: 24.761=880/3554, Test Loss: 4.416
+Train|Epoch: 50, Acc : 38.776=9368/24159, Train Loss: 1.506
+VAL|Epoch: 50, Acc: 30.253=812/2684, Val Loss: 4.644
+VAL|Count Real Loss:	 4.762}
+Test|Epoch: 50, Acc: 28.447=1011/3554, Test Loss: 4.411
+Train|Epoch: 51, Acc : 39.708=9593/24159, Train Loss: 1.468
+VAL|Epoch: 51, Acc: 28.875=775/2684, Val Loss: 4.525
+VAL|Count Real Loss:	 4.591}
+Test|Epoch: 51, Acc: 27.603=981/3554, Test Loss: 4.275
+Train|Epoch: 52, Acc : 40.304=9737/24159, Train Loss: 1.424
+VAL|Epoch: 52, Acc: 30.179=810/2684, Val Loss: 4.613
+VAL|Count Real Loss:	 4.711}
+Test|Epoch: 52, Acc: 27.546=979/3554, Test Loss: 4.244
+Train|Epoch: 53, Acc : 41.190=9951/24159, Train Loss: 1.346
+VAL|Epoch: 53, Acc: 29.881=802/2684, Val Loss: 4.436
+VAL|Count Real Loss:	 4.566}
+Test|Epoch: 53, Acc: 29.657=1054/3554, Test Loss: 4.054
+Train|Epoch: 54, Acc : 40.921=9886/24159, Train Loss: 1.333
+VAL|Epoch: 54, Acc: 25.633=688/2684, Val Loss: 4.405
+VAL|Count Real Loss:	 4.478}
+Test|Epoch: 54, Acc: 24.170=859/3554, Test Loss: 4.094
+Train|Epoch: 55, Acc : 40.474=9778/24159, Train Loss: 1.378
+VAL|Epoch: 55, Acc: 28.130=755/2684, Val Loss: 4.525
+VAL|Count Real Loss:	 4.598}
+Test|Epoch: 55, Acc: 26.111=928/3554, Test Loss: 4.298
+Train|Epoch: 56, Acc : 42.013=10150/24159, Train Loss: 1.273
+VAL|Epoch: 56, Acc: 28.651=769/2684, Val Loss: 4.412
+VAL|Count Real Loss:	 4.477}
+Test|Epoch: 56, Acc: 28.644=1018/3554, Test Loss: 4.288
+Train|Epoch: 57, Acc : 41.736=10083/24159, Train Loss: 1.250
+VAL|Epoch: 57, Acc: 29.769=799/2684, Val Loss: 4.476
+VAL|Count Real Loss:	 4.584}
+Test|Epoch: 57, Acc: 29.460=1047/3554, Test Loss: 4.046
+Train|Epoch: 58, Acc : 42.638=10301/24159, Train Loss: 1.222
+VAL|Epoch: 58, Acc: 28.875=775/2684, Val Loss: 4.583
+VAL|Count Real Loss:	 4.670}
+Test|Epoch: 58, Acc: 29.488=1048/3554, Test Loss: 4.268
+Train|Epoch: 59, Acc : 42.845=10351/24159, Train Loss: 1.185
+VAL|Epoch: 59, Acc: 28.800=773/2684, Val Loss: 4.582
+VAL|Count Real Loss:	 4.700}
+Test|Epoch: 59, Acc: 27.293=970/3554, Test Loss: 4.161
+Train|Epoch: 60, Acc : 43.011=10391/24159, Train Loss: 1.165
+VAL|Epoch: 60, Acc: 30.626=822/2684, Val Loss: 4.612
+VAL|Count Real Loss:	 4.700}
+Test|Epoch: 60, Acc: 29.178=1037/3554, Test Loss: 4.285
+Train|Epoch: 61, Acc : 43.234=10445/24159, Train Loss: 1.158
+VAL|Epoch: 61, Acc: 29.545=793/2684, Val Loss: 4.539
+VAL|Count Real Loss:	 4.568}
+Test|Epoch: 61, Acc: 26.646=947/3554, Test Loss: 4.227
+Train|Epoch: 62, Acc : 44.170=10671/24159, Train Loss: 1.120
+VAL|Epoch: 62, Acc: 29.993=805/2684, Val Loss: 4.701
+VAL|Count Real Loss:	 4.785}
+Test|Epoch: 62, Acc: 29.544=1050/3554, Test Loss: 4.297
+Train|Epoch: 63, Acc : 44.273=10696/24159, Train Loss: 1.092
+VAL|Epoch: 63, Acc: 29.844=801/2684, Val Loss: 4.563
+VAL|Count Real Loss:	 4.688}
+Test|Epoch: 63, Acc: 28.447=1011/3554, Test Loss: 4.217
+Train|Epoch: 64, Acc : 44.745=10810/24159, Train Loss: 1.071
+VAL|Epoch: 64, Acc: 28.800=773/2684, Val Loss: 4.553
+VAL|Count Real Loss:	 4.611}
+Test|Epoch: 64, Acc: 28.250=1004/3554, Test Loss: 4.181
+Train|Epoch: 65, Acc : 45.287=10941/24159, Train Loss: 1.037
+VAL|Epoch: 65, Acc: 28.204=757/2684, Val Loss: 4.692
+VAL|Count Real Loss:	 4.731}
+Test|Epoch: 65, Acc: 27.040=961/3554, Test Loss: 4.393
+Train|Epoch: 66, Acc : 45.304=10945/24159, Train Loss: 1.032
+VAL|Epoch: 66, Acc: 28.130=755/2684, Val Loss: 4.386
+VAL|Count Real Loss:	 4.471}
+Test|Epoch: 66, Acc: 26.111=928/3554, Test Loss: 4.086
+Train|Epoch: 67, Acc : 46.190=11159/24159, Train Loss: 1.003
+VAL|Epoch: 67, Acc: 28.279=759/2684, Val Loss: 4.580
+VAL|Count Real Loss:	 4.678}
+Test|Epoch: 67, Acc: 27.828=989/3554, Test Loss: 4.284
+Train|Epoch: 68, Acc : 46.206=11163/24159, Train Loss: 0.954
+VAL|Epoch: 68, Acc: 30.365=815/2684, Val Loss: 4.469
+VAL|Count Real Loss:	 4.544}
+Test|Epoch: 68, Acc: 30.135=1071/3554, Test Loss: 4.176
+Train|Epoch: 69, Acc : 46.302=11186/24159, Train Loss: 0.972
+VAL|Epoch: 69, Acc: 30.216=811/2684, Val Loss: 4.624
+VAL|Count Real Loss:	 4.765}
+Test|Epoch: 69, Acc: 29.657=1054/3554, Test Loss: 4.298
+Train|Epoch: 70, Acc : 47.713=11527/24159, Train Loss: 0.920
+VAL|Epoch: 70, Acc: 31.036=833/2684, Val Loss: 4.534
+VAL|Count Real Loss:	 4.637}
+Test|Epoch: 70, Acc: 32.133=1142/3554, Test Loss: 4.244
+Train|Epoch: 71, Acc : 47.076=11373/24159, Train Loss: 0.955
+VAL|Epoch: 71, Acc: 30.067=807/2684, Val Loss: 4.582
+VAL|Count Real Loss:	 4.686}
+Test|Epoch: 71, Acc: 28.813=1024/3554, Test Loss: 4.301
+Train|Epoch: 72, Acc : 47.771=11541/24159, Train Loss: 0.898
+VAL|Epoch: 72, Acc: 29.471=791/2684, Val Loss: 4.707
+VAL|Count Real Loss:	 4.797}
+Test|Epoch: 72, Acc: 28.503=1013/3554, Test Loss: 4.332
+Train|Epoch: 73, Acc : 48.148=11632/24159, Train Loss: 0.895
+VAL|Epoch: 73, Acc: 30.402=816/2684, Val Loss: 4.584
+VAL|Count Real Loss:	 4.646}
+Test|Epoch: 73, Acc: 30.642=1089/3554, Test Loss: 4.230
+Train|Epoch: 74, Acc : 47.870=11565/24159, Train Loss: 0.890
+VAL|Epoch: 74, Acc: 29.918=803/2684, Val Loss: 4.614
+VAL|Count Real Loss:	 4.678}
+Test|Epoch: 74, Acc: 29.516=1049/3554, Test Loss: 4.246
+Train|Epoch: 75, Acc : 49.050=11850/24159, Train Loss: 0.852
+VAL|Epoch: 75, Acc: 29.657=796/2684, Val Loss: 4.642
+VAL|Count Real Loss:	 4.715}
+Test|Epoch: 75, Acc: 29.094=1034/3554, Test Loss: 4.274
+Train|Epoch: 76, Acc : 50.118=12108/24159, Train Loss: 0.808
+VAL|Epoch: 76, Acc: 29.545=793/2684, Val Loss: 4.581
+VAL|Count Real Loss:	 4.720}
+Test|Epoch: 76, Acc: 29.882=1062/3554, Test Loss: 4.140
+Train|Epoch: 77, Acc : 50.317=12156/24159, Train Loss: 0.785
+VAL|Epoch: 77, Acc: 27.981=751/2684, Val Loss: 4.563
+VAL|Count Real Loss:	 4.690}
+Test|Epoch: 77, Acc: 27.659=983/3554, Test Loss: 4.317
+Train|Epoch: 78, Acc : 50.486=12197/24159, Train Loss: 0.803
+VAL|Epoch: 78, Acc: 29.247=785/2684, Val Loss: 4.591
+VAL|Count Real Loss:	 4.716}
+Test|Epoch: 78, Acc: 28.700=1020/3554, Test Loss: 4.267
+Train|Epoch: 79, Acc : 50.565=12216/24159, Train Loss: 0.785
+VAL|Epoch: 79, Acc: 27.645=742/2684, Val Loss: 4.701
+VAL|Count Real Loss:	 4.781}
+Test|Epoch: 79, Acc: 27.603=981/3554, Test Loss: 4.352
+Train|Epoch: 80, Acc : 51.074=12339/24159, Train Loss: 0.788
+VAL|Epoch: 80, Acc: 32.042=860/2684, Val Loss: 4.673
+VAL|Count Real Loss:	 4.747}
+Test|Epoch: 80, Acc: 31.626=1124/3554, Test Loss: 4.259
+Train|Epoch: 81, Acc : 51.405=12419/24159, Train Loss: 0.743
+VAL|Epoch: 81, Acc: 30.402=816/2684, Val Loss: 4.586
+VAL|Count Real Loss:	 4.663}
+Test|Epoch: 81, Acc: 30.051=1068/3554, Test Loss: 4.226
+Train|Epoch: 82, Acc : 51.964=12554/24159, Train Loss: 0.713
+VAL|Epoch: 82, Acc: 29.247=785/2684, Val Loss: 4.479
+VAL|Count Real Loss:	 4.511}
+Test|Epoch: 82, Acc: 28.250=1004/3554, Test Loss: 4.183
+Train|Epoch: 83, Acc : 51.976=12557/24159, Train Loss: 0.724
+VAL|Epoch: 83, Acc: 28.502=765/2684, Val Loss: 4.835
+VAL|Count Real Loss:	 4.923}
+Test|Epoch: 83, Acc: 29.150=1036/3554, Test Loss: 4.398
+Train|Epoch: 84, Acc : 52.784=12752/24159, Train Loss: 0.707
+VAL|Epoch: 84, Acc: 30.104=808/2684, Val Loss: 4.527
+VAL|Count Real Loss:	 4.645}
+Test|Epoch: 84, Acc: 29.178=1037/3554, Test Loss: 4.269
+Train|Epoch: 85, Acc : 53.967=13038/24159, Train Loss: 0.677
+VAL|Epoch: 85, Acc: 28.838=774/2684, Val Loss: 4.625
+VAL|Count Real Loss:	 4.734}
+Test|Epoch: 85, Acc: 28.841=1025/3554, Test Loss: 4.273
+Train|Epoch: 86, Acc : 53.926=13028/24159, Train Loss: 0.647
+VAL|Epoch: 86, Acc: 30.775=826/2684, Val Loss: 4.695
+VAL|Count Real Loss:	 4.809}
+Test|Epoch: 86, Acc: 30.163=1072/3554, Test Loss: 4.324
+Train|Epoch: 87, Acc : 53.992=13044/24159, Train Loss: 0.655
+VAL|Epoch: 87, Acc: 30.365=815/2684, Val Loss: 4.683
+VAL|Count Real Loss:	 4.760}
+Test|Epoch: 87, Acc: 29.432=1046/3554, Test Loss: 4.253
+Train|Epoch: 88, Acc : 54.812=13242/24159, Train Loss: 0.624
+VAL|Epoch: 88, Acc: 28.390=762/2684, Val Loss: 4.569
+VAL|Count Real Loss:	 4.618}
+Test|Epoch: 88, Acc: 27.490=977/3554, Test Loss: 4.225
+Train|Epoch: 89, Acc : 54.758=13229/24159, Train Loss: 0.632
+VAL|Epoch: 89, Acc: 27.049=726/2684, Val Loss: 4.592
+VAL|Count Real Loss:	 4.680}
+Test|Epoch: 89, Acc: 26.871=955/3554, Test Loss: 4.289
+Train|Epoch: 90, Acc : 54.915=13267/24159, Train Loss: 0.641
+VAL|Epoch: 90, Acc: 30.291=813/2684, Val Loss: 4.466
+VAL|Count Real Loss:	 4.558}
+Test|Epoch: 90, Acc: 29.235=1039/3554, Test Loss: 4.165
+Train|Epoch: 91, Acc : 55.151=13324/24159, Train Loss: 0.626
+VAL|Epoch: 91, Acc: 30.849=828/2684, Val Loss: 4.696
+VAL|Count Real Loss:	 4.816}
+Test|Epoch: 91, Acc: 31.401=1116/3554, Test Loss: 4.357
+Train|Epoch: 92, Acc : 55.847=13492/24159, Train Loss: 0.612
+VAL|Epoch: 92, Acc: 29.732=798/2684, Val Loss: 4.627
+VAL|Count Real Loss:	 4.749}
+Test|Epoch: 92, Acc: 30.079=1069/3554, Test Loss: 4.298
+Train|Epoch: 93, Acc : 56.244=13588/24159, Train Loss: 0.587
+VAL|Epoch: 93, Acc: 29.620=795/2684, Val Loss: 4.795
+VAL|Count Real Loss:	 4.868}
+Test|Epoch: 93, Acc: 29.882=1062/3554, Test Loss: 4.422
+Train|Epoch: 94, Acc : 56.915=13750/24159, Train Loss: 0.577
+VAL|Epoch: 94, Acc: 29.098=781/2684, Val Loss: 4.579
+VAL|Count Real Loss:	 4.697}
+Test|Epoch: 94, Acc: 27.518=978/3554, Test Loss: 4.175
+Train|Epoch: 95, Acc : 57.473=13885/24159, Train Loss: 0.562
+VAL|Epoch: 95, Acc: 28.949=777/2684, Val Loss: 4.677
+VAL|Count Real Loss:	 4.742}
+Test|Epoch: 95, Acc: 27.912=992/3554, Test Loss: 4.337
+Train|Epoch: 96, Acc : 57.374=13861/24159, Train Loss: 0.557
+VAL|Epoch: 96, Acc: 29.061=780/2684, Val Loss: 4.640
+VAL|Count Real Loss:	 4.746}
+Test|Epoch: 96, Acc: 29.882=1062/3554, Test Loss: 4.237
+Train|Epoch: 97, Acc : 58.272=14078/24159, Train Loss: 0.551
+VAL|Epoch: 97, Acc: 29.210=784/2684, Val Loss: 4.597
+VAL|Count Real Loss:	 4.734}
+Test|Epoch: 97, Acc: 29.910=1063/3554, Test Loss: 4.219
+Train|Epoch: 98, Acc : 58.103=14037/24159, Train Loss: 0.547
+VAL|Epoch: 98, Acc: 29.471=791/2684, Val Loss: 4.656
+VAL|Count Real Loss:	 4.764}
+Test|Epoch: 98, Acc: 29.403=1045/3554, Test Loss: 4.281
+Train|Epoch: 99, Acc : 58.678=14176/24159, Train Loss: 0.530
+VAL|Epoch: 99, Acc: 28.539=766/2684, Val Loss: 4.584
+VAL|Count Real Loss:	 4.690}
+Test|Epoch: 99, Acc: 29.066=1033/3554, Test Loss: 4.151
